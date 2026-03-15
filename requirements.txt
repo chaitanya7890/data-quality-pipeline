@@ -16,3 +16,24 @@
 ## How to Run
 
 Activate virtual environment
+venv\Scripts\activate
+
+
+Install dependencies
+pip install -r requirements.txt
+
+
+Run validation
+python pipeline/validate_data.py
+
+
+Run transformation
+python pipeline/transform_data.py
+
+
+## Future Improvements
+
+- Integrate Great Expectations validation suites
+- Add Airflow orchestration
+- Store datasets in AWS S3
+- Generate automated validation reports
